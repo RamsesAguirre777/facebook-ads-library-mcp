@@ -1,15 +1,15 @@
 # Core MCP dependencies
-fastmcp>=2.6.1
-mcp>=1.9.2
+mcp>=1.16.0
+fastmcp>=2.12
+starlette>=0.36
+uvicorn>=0.30
 
 # HTTP and API requests
 requests>=2.32.3
 httpx>=0.28.1
 
-# Web crawling and scraping
-crawl4ai>=0.7.0
+# HTML parsing (replacement for Crawl4AI)
 beautifulsoup4>=4.12.2
-selenium>=4.15.0
 
 # Data processing and analysis
 pandas>=2.0.0
@@ -17,11 +17,10 @@ numpy>=1.24.0
 
 # Environment and configuration
 python-dotenv>=1.1.0
-pydantic>=2.11.5
-pydantic-settings>=2.9.1
+pydantic>=2.6.0
+pydantic-settings>=2.5.2
 
 # Async support
-asyncio
 aiohttp>=3.8.0
 
 # Text processing and NLP

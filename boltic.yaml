@@ -1,0 +1,11 @@
+app: "facebook-ads-library-mcp"
+region: "asia-south1"
+entrypoint: "serverless_app.py"
+
+build:
+  dockerfile: ./Dockerfile
+
+env:
+  PORT: "8080"
+  FACEBOOK_ACCESS_TOKEN: ""
+  GEMINI_API_KEY: ""
